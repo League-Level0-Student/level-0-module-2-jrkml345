@@ -20,9 +20,8 @@ public class NasaCountdown {
 String start = JOptionPane.showInputDialog("where should i start?"); 
 		// 3. Change the countdown to use the new starting point
 		int starrNum = Integer.parseInt(start);
-		int startNum;
 		// 1. Print a countdown from 10 to 0 on the console
-		for(int i = startNum; i >= 0; i--) {
+		for(int i = starrNum; i >= 0; i--) {
 		System.out.println(i);	
 		}
 		// 4. Use the speak method to hear the countdown.
