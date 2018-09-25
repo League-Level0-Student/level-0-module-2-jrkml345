@@ -23,12 +23,13 @@ String start = JOptionPane.showInputDialog("where should i start?");
 		// 1. Print a countdown from 10 to 0 on the console
 		for(int i = starrNum; i >= 0; i--) {
 		System.out.println(i);	
+		//speak(i + "");
 		}
 		// 4. Use the speak method to hear the countdown.
-		
-			// 6. Use the following code to make the program wait one second for each number: Thread.sleep(1000);
-		
+		// 6. Use the following code to make the program wait one second for each number: Thread.sleep(1000);
+		System.out.println("Blastoff!!!!");
 		// 5. when the counting is done, speak "blastoff!"
+		
 	}
 
 static void speak(String words) {
