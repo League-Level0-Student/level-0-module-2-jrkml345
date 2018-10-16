@@ -8,6 +8,8 @@ public class NumberGuessingGame {
 
 	public static void main(String[] args) {
 	int r = 0 ;
+	for (int i= 0; i < 1; i++) {
+		
 	
 	Random number = new Random();
 	r = number.nextInt(3);
@@ -24,7 +26,7 @@ public class NumberGuessingGame {
 			i--;
 		}
 	}
-	
+	}
 	
 }
 }

@@ -29,7 +29,7 @@ String start = JOptionPane.showInputDialog("where should i start?");
 		// 6. Use the following code to make the program wait one second for each number: Thread.sleep(1000);
 		System.out.println("Blastoff!!!!");
 		// 5. when the counting is done, speak "blastoff!"
-		
+		System.out.println("Wow such a good rocket");
 	}
 
 static void speak(String words) {

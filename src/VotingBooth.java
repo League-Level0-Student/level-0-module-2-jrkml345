@@ -9,8 +9,7 @@ int realage = Integer.parseInt(age);
 JOptionPane.showMessageDialog(null, "Thank you for your cooperation :)");
 }
 	else {
-		JOptionPane.showMessageDialog(null, "No one cares what you think.");
+		JOptionPane.showMessageDialog(null, "Sorry, but no ones cares :'(");
 	}
-
 }
 }
