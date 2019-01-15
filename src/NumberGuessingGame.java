@@ -20,8 +20,8 @@ public class NumberGuessingGame {
 		JOptionPane.showMessageDialog(null, "Good job. You guessed it right!");
 	}
 	else {
-		JOptionPane.showMessageDialog(null, "sorry buddy");
-		String input = JOptionPane.showInputDialog("Wanna try again");
+		JOptionPane.showMessageDialog(null, "Sorry buddy");
+		String input = JOptionPane.showInputDialog("Wanna try again?");
 		if(input.equals("yes")) {
 			i--;
 		}
